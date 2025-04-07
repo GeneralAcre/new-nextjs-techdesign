@@ -1,4 +1,4 @@
-export default function DogCard({name = 'No name',description = 'No description'}) {
+export default function DogCard() {
   return(
     <div className="shadow-md rounded-[8px] p-[16px] flex flex-col gap-[8px]">
       <div className="text-[16px] font-bold">{name}</div>
