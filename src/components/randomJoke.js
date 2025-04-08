@@ -4,7 +4,7 @@ export default function RandomJoke({ joke }) {
     }
   
     return (
-      <div className="p-[16px] border border-gray-300 rounded-[8px]">
+      <div className="RandomJoke">
         <h3 className="font-bold">{joke.setup}</h3>
         <p>{joke.punchline}</p>
       </div>

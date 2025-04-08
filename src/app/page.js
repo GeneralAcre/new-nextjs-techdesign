@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import RandomJoke from "@/components/randomJoke";
+import './globals.css'; 
 
 export default function Home() {
   const [joke, setJoke] = useState(null);
@@ -36,12 +37,12 @@ export default function Home() {
         {/* RandomJoke Component */}
         <RandomJoke joke={joke} />
 
-        {/* Button to refresh the joke */}
         <button 
           onClick={fetchRandomJoke} 
-          className="mt-[16px] py-[10px] px-[20px] bg-blue-500 text-white rounded-[8px]">
+          className="Button">
           Get Another Joke
         </button>
+        
       </main>
     </div>
   );
