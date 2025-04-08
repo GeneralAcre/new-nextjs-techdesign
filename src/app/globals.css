@@ -9,9 +9,7 @@ body {
   padding: 0;
 }
 
-.db {
-  border: 1px solid red;
-}
+
 
 .warning {
   display: none;
@@ -59,4 +57,11 @@ body {
   border-radius: 10px;
   box-shadow: inset;
   padding: 10px;
+}
+
+.Image1{
+  width: 100%;
+  max-width: 450px;
+  border-radius: 20px;
+  margin: 20px;
 }
